@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full page background with gradient */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    /* background-image: linear-gradient(to right, #ddbe55, #d83d19); */
+}
+
+/* Container for buttons */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Button hover effect */
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Individual button colors */
+#button1 {
+    background-color: #0d1b55;
+    /* Dark blue */
+}
+
+#button2 {
+    background-color: #8cc63f;
+    /* Bright green */
+    color: black;
+}
+
+/* Heading styling */
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Code display box */
+.copycode {
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
